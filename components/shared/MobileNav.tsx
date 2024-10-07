@@ -4,7 +4,7 @@ import React from 'react'
 import {Sheet,SheetContent,SheetTrigger,} from "@/components/ui/sheet"
 import Image from "next/image"
 import Link from "next/link"
-import { SignedIn, SignedOut, SignIn, UserButton } from '@clerk/nextjs'
+import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 import { navLinks } from '@/constants'
 import { usePathname } from 'next/navigation'
 import { Button } from '../ui/button'
